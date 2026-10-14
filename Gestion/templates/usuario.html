@@ -1,0 +1,9 @@
+<h1>Usuarios</h1>
+
+{% for usuario in usuarios %}
+    <p>Nombre: {{ usuario.Nombre }}</p>
+    <p>Correo: {{ usuario.CorreoElectronico }}</p>
+    <p>Contraseña: {{ usuario.Contraseña }}</p>
+    <p>Fecha de registro: {{ usuario.FechaRegistro|date:"d/m/Y H:i" }}</p>
+    <hr>
+{% endfor %}

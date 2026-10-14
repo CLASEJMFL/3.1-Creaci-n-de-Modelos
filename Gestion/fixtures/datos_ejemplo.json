@@ -1,0 +1,2572 @@
+[
+{
+  "model": "Gestion.usuario",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$2d7VvTtO3Rq4wLSduToU22$q8wJ3lBSPTAPJQFp7RxC0V7i1pCopH39StW8R9tyLvA=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:03:26.039Z",
+    "nombre": "",
+    "email": "admin@admin.com",
+    "fecha_registro": "2026-10-14T09:03:26.585Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$KMON4mObFdi51NZA0Y86Fo$V03HIlSNcAmuJ9b++BnnR7m1nWkaLxhSrVrcyQ3ziUE=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario1",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:22.367Z",
+    "nombre": "Usuario 1",
+    "email": "usuario1@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:22.367Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$JAB76GQ2cDFLOXfczdAowt$Sxui6OaUCyQoHVQGKHDOCR1BMmQsuQLpHRYMD2op5e8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario2",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:22.937Z",
+    "nombre": "Usuario 2",
+    "email": "usuario2@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:22.938Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$grmCHDkKp4ETDso13oGJgb$70JRAl17v9D6MBLTwJT5rkK6RHEL/7DpT07rTpFdQfI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario3",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:23.528Z",
+    "nombre": "Usuario 3",
+    "email": "usuario3@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:23.528Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$wvco7k3sUpDegMSvRRH7YW$8v43EWv7BdxNY470x/W7o1YaIvh+c64yLpiHYIwwj2o=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario4",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:24.085Z",
+    "nombre": "Usuario 4",
+    "email": "usuario4@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:24.085Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$OvxQeBcjxIJG2b57adkaYG$zCV14Vvfsz2udKqqEsMZfiWprrn2vwWtvO/dMqIbcL4=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario5",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:24.627Z",
+    "nombre": "Usuario 5",
+    "email": "usuario5@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:24.627Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$Umv9JHcXquj491qOxEpcuI$ZNyFpImdITFgMC1wkZCLaqaSsi6fzVr6eJgj4ra3uW0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario6",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:25.182Z",
+    "nombre": "Usuario 6",
+    "email": "usuario6@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:25.182Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$vQpKnE5HdSzEzjxTjfmbsS$g1hXtN52pF4d/cMaiaAH9U0bw3po9qAqnGlfHVNNtB4=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario7",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:25.731Z",
+    "nombre": "Usuario 7",
+    "email": "usuario7@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:25.731Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$yMkZSXtcKE0Kx9HfgIO5Cx$PmrVXu7dOhjY01mXlcora0jgFgPtlzYo0eH99r4CXuE=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario8",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:26.288Z",
+    "nombre": "Usuario 8",
+    "email": "usuario8@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:26.288Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$Qyoplry4fxRZNOMItaPJWJ$iz6qEG6K2vxxv+d5jaljTuxKK/3Y44yVZpT7UnU9ZTM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario9",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:26.864Z",
+    "nombre": "Usuario 9",
+    "email": "usuario9@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:26.864Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 11,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$9MiRil6KuiXZVcZgyogJY6$wHLEjcHdfbqrUkB67x/LG6W3/dzhsVGJffNQHVuqylY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario10",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:27.415Z",
+    "nombre": "Usuario 10",
+    "email": "usuario10@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:27.415Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 12,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$m03W1LwCsrIurk2KQBG8Rm$kLVhchQkg5uhthahnUo31cog+H8aIJiQcNfWuoFt4Vg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario11",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:27.964Z",
+    "nombre": "Usuario 11",
+    "email": "usuario11@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:27.964Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 13,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$DA8cESzjdDYufHozatqFWZ$JFSuB3fOnWrs3ctt/mXNNlA52TZQrQoozn/ChyI7m3s=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario12",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:28.506Z",
+    "nombre": "Usuario 12",
+    "email": "usuario12@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:28.507Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 14,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$N4Y4i0DvtsuTlKvxyxjiVn$EzQih47Czo7j1//9dDsNGu6cuPtPzogvphfEFoayK8A=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario13",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:29.060Z",
+    "nombre": "Usuario 13",
+    "email": "usuario13@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:29.060Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 15,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$jT6uMpKblTkxT1pyb20DUo$C9GQL3wsaACXyL1CkO9yHxH34Cd4/HIQYN0fSDyRZHc=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario14",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:29.629Z",
+    "nombre": "Usuario 14",
+    "email": "usuario14@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:29.629Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 16,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$BES7c6CGQE3ZMLmWAxzfMU$zCsOX3AgtOMGRNAd7CdT58lij85Oh3r44reKM6DUkDY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario15",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:30.197Z",
+    "nombre": "Usuario 15",
+    "email": "usuario15@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:30.197Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 17,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$7dA578g5FL0OjzeSMJyw39$3OGuN1v1Y7N6C3PsdtJ3q+R9tLc4kIC+NZCHAvSjb5M=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario16",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:30.768Z",
+    "nombre": "Usuario 16",
+    "email": "usuario16@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:30.768Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 18,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$OB4uzb4FP66IiZZXUafaTN$gFScislnlhSG7LjnRK+l2syiXYPfhfayqE43JtMMDGg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario17",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:31.319Z",
+    "nombre": "Usuario 17",
+    "email": "usuario17@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:31.319Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 19,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$V4fFop3oRDfjrBalPZp9p2$akt0DTiU7iHgAvlQI/sJDvqZKk5LT/OirGMaeo4oFDc=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario18",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:31.871Z",
+    "nombre": "Usuario 18",
+    "email": "usuario18@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:31.872Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 20,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$jOMCeH58HX1CY2dIyfGFcP$bybIyXlL1A4R8eRdote8ny0cE2ih2HRza3hkYwFEoRE=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario19",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:32.418Z",
+    "nombre": "Usuario 19",
+    "email": "usuario19@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:32.418Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 21,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$0nVeTqsBI9iBpK8jvQ7ZLe$fmNvy1KerIicTcNelY51s2unEP55rjJ0rhsiwA+ohVs=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario20",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:32.957Z",
+    "nombre": "Usuario 20",
+    "email": "usuario20@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:32.957Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 22,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$UOKQguZ0FvkOtV6LvRtTK9$DUZC71thS0xddzUir56pZQR9H7uKdCvP8wtGlML7x1k=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario21",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:33.509Z",
+    "nombre": "Usuario 21",
+    "email": "usuario21@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:33.509Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 23,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$bz3mBusLivj9HfeCTEY3Ou$h/Tli+lHWJ/bwnp/heAF5v95um5c/gBgb7PIQs+eUJY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario22",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:34.058Z",
+    "nombre": "Usuario 22",
+    "email": "usuario22@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:34.058Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 24,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$9Z9Kcwl5ILIVCq3BXBJaFb$OCHo9fU+F6h4KoJTxaDvvEJpEV4mPLj/oqNjfzt+E8w=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario23",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:34.602Z",
+    "nombre": "Usuario 23",
+    "email": "usuario23@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:34.602Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 25,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$eKHQwAcKyj22C7i5lZiLIo$NugM3I7Y/W/FrS0av5XG7psAwJejyB18WPbDx8ePKo8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario24",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:35.162Z",
+    "nombre": "Usuario 24",
+    "email": "usuario24@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:35.162Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 26,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$Vtliom6ZXlrf0I0cLagcgV$wAjvvnEE86/BkLQcVAbyOopW1EEEXDxRImsnB/rAhRk=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario25",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:35.715Z",
+    "nombre": "Usuario 25",
+    "email": "usuario25@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:35.715Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 27,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$5CUmUcC7TYBZXfxJRJiQTA$1d8588/S36MJExSFUloZP3WDVQ4GBVZW/Vhynw4dsks=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario26",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:36.269Z",
+    "nombre": "Usuario 26",
+    "email": "usuario26@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:36.269Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 28,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$g6a7bmcJewYfKaoTRGCRH5$WMun5T0xjCHcl1oQFGPO5EnbR+0IBGeqTculrPs8f0M=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario27",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:36.820Z",
+    "nombre": "Usuario 27",
+    "email": "usuario27@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:36.820Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 29,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$U79JZ9ctuSdN4SpsUZVuCs$Bme1BfzGOx3peUAU+HRNTxhtEn/udfYTpDwxrEUdsNA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario28",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:37.365Z",
+    "nombre": "Usuario 28",
+    "email": "usuario28@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:37.365Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 30,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$mlf4awCstDi5leiuruarCf$5NDa2XoKz6Frtrk4oXncw6ZtxtLU1ztrwN+V3n8dNYk=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario29",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:37.902Z",
+    "nombre": "Usuario 29",
+    "email": "usuario29@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:37.903Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.usuario",
+  "pk": 31,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$h2kyslj39VcbiMRWgdLkzH$wwIltOP1eud/0mjbKNJ3e8JKa8jRnrhuC3hIUoslFt0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "usuario30",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-14T09:05:38.494Z",
+    "nombre": "Usuario 30",
+    "email": "usuario30@ejemplo.com",
+    "fecha_registro": "2026-10-14T09:05:38.494Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 1,
+  "fields": {
+    "nombre": "Proyecto 1",
+    "descripcion": "Descripción del proyecto 1",
+    "duracion_estimada": 2.0,
+    "fecha_inicio": "2026-10-15",
+    "fecha_finalizacion": "2026-11-14",
+    "creador": 2
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 2,
+  "fields": {
+    "nombre": "Proyecto 2",
+    "descripcion": "Descripción del proyecto 2",
+    "duracion_estimada": 4.0,
+    "fecha_inicio": "2026-10-16",
+    "fecha_finalizacion": "2026-11-15",
+    "creador": 3
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 3,
+  "fields": {
+    "nombre": "Proyecto 3",
+    "descripcion": "Descripción del proyecto 3",
+    "duracion_estimada": 6.0,
+    "fecha_inicio": "2026-10-17",
+    "fecha_finalizacion": "2026-11-16",
+    "creador": 4
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 4,
+  "fields": {
+    "nombre": "Proyecto 4",
+    "descripcion": "Descripción del proyecto 4",
+    "duracion_estimada": 8.0,
+    "fecha_inicio": "2026-10-18",
+    "fecha_finalizacion": "2026-11-17",
+    "creador": 5
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 5,
+  "fields": {
+    "nombre": "Proyecto 5",
+    "descripcion": "Descripción del proyecto 5",
+    "duracion_estimada": 10.0,
+    "fecha_inicio": "2026-10-19",
+    "fecha_finalizacion": "2026-11-18",
+    "creador": 6
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 6,
+  "fields": {
+    "nombre": "Proyecto 6",
+    "descripcion": "Descripción del proyecto 6",
+    "duracion_estimada": 12.0,
+    "fecha_inicio": "2026-10-20",
+    "fecha_finalizacion": "2026-11-19",
+    "creador": 7
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 7,
+  "fields": {
+    "nombre": "Proyecto 7",
+    "descripcion": "Descripción del proyecto 7",
+    "duracion_estimada": 14.0,
+    "fecha_inicio": "2026-10-21",
+    "fecha_finalizacion": "2026-11-20",
+    "creador": 8
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 8,
+  "fields": {
+    "nombre": "Proyecto 8",
+    "descripcion": "Descripción del proyecto 8",
+    "duracion_estimada": 16.0,
+    "fecha_inicio": "2026-10-22",
+    "fecha_finalizacion": "2026-11-21",
+    "creador": 9
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 9,
+  "fields": {
+    "nombre": "Proyecto 9",
+    "descripcion": "Descripción del proyecto 9",
+    "duracion_estimada": 18.0,
+    "fecha_inicio": "2026-10-23",
+    "fecha_finalizacion": "2026-11-22",
+    "creador": 10
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 10,
+  "fields": {
+    "nombre": "Proyecto 10",
+    "descripcion": "Descripción del proyecto 10",
+    "duracion_estimada": 20.0,
+    "fecha_inicio": "2026-10-24",
+    "fecha_finalizacion": "2026-11-23",
+    "creador": 11
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 11,
+  "fields": {
+    "nombre": "Proyecto 11",
+    "descripcion": "Descripción del proyecto 11",
+    "duracion_estimada": 22.0,
+    "fecha_inicio": "2026-10-25",
+    "fecha_finalizacion": "2026-11-24",
+    "creador": 12
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 12,
+  "fields": {
+    "nombre": "Proyecto 12",
+    "descripcion": "Descripción del proyecto 12",
+    "duracion_estimada": 24.0,
+    "fecha_inicio": "2026-10-26",
+    "fecha_finalizacion": "2026-11-25",
+    "creador": 13
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 13,
+  "fields": {
+    "nombre": "Proyecto 13",
+    "descripcion": "Descripción del proyecto 13",
+    "duracion_estimada": 26.0,
+    "fecha_inicio": "2026-10-27",
+    "fecha_finalizacion": "2026-11-26",
+    "creador": 14
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 14,
+  "fields": {
+    "nombre": "Proyecto 14",
+    "descripcion": "Descripción del proyecto 14",
+    "duracion_estimada": 28.0,
+    "fecha_inicio": "2026-10-28",
+    "fecha_finalizacion": "2026-11-27",
+    "creador": 15
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 15,
+  "fields": {
+    "nombre": "Proyecto 15",
+    "descripcion": "Descripción del proyecto 15",
+    "duracion_estimada": 30.0,
+    "fecha_inicio": "2026-10-29",
+    "fecha_finalizacion": "2026-11-28",
+    "creador": 16
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 16,
+  "fields": {
+    "nombre": "Proyecto 16",
+    "descripcion": "Descripción del proyecto 16",
+    "duracion_estimada": 32.0,
+    "fecha_inicio": "2026-10-30",
+    "fecha_finalizacion": "2026-11-29",
+    "creador": 17
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 17,
+  "fields": {
+    "nombre": "Proyecto 17",
+    "descripcion": "Descripción del proyecto 17",
+    "duracion_estimada": 34.0,
+    "fecha_inicio": "2026-10-31",
+    "fecha_finalizacion": "2026-11-30",
+    "creador": 18
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 18,
+  "fields": {
+    "nombre": "Proyecto 18",
+    "descripcion": "Descripción del proyecto 18",
+    "duracion_estimada": 36.0,
+    "fecha_inicio": "2026-11-01",
+    "fecha_finalizacion": "2026-12-01",
+    "creador": 19
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 19,
+  "fields": {
+    "nombre": "Proyecto 19",
+    "descripcion": "Descripción del proyecto 19",
+    "duracion_estimada": 38.0,
+    "fecha_inicio": "2026-11-02",
+    "fecha_finalizacion": "2026-12-02",
+    "creador": 20
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 20,
+  "fields": {
+    "nombre": "Proyecto 20",
+    "descripcion": "Descripción del proyecto 20",
+    "duracion_estimada": 40.0,
+    "fecha_inicio": "2026-11-03",
+    "fecha_finalizacion": "2026-12-03",
+    "creador": 21
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 21,
+  "fields": {
+    "nombre": "Proyecto 21",
+    "descripcion": "Descripción del proyecto 21",
+    "duracion_estimada": 42.0,
+    "fecha_inicio": "2026-11-04",
+    "fecha_finalizacion": "2026-12-04",
+    "creador": 22
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 22,
+  "fields": {
+    "nombre": "Proyecto 22",
+    "descripcion": "Descripción del proyecto 22",
+    "duracion_estimada": 44.0,
+    "fecha_inicio": "2026-11-05",
+    "fecha_finalizacion": "2026-12-05",
+    "creador": 23
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 23,
+  "fields": {
+    "nombre": "Proyecto 23",
+    "descripcion": "Descripción del proyecto 23",
+    "duracion_estimada": 46.0,
+    "fecha_inicio": "2026-11-06",
+    "fecha_finalizacion": "2026-12-06",
+    "creador": 24
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 24,
+  "fields": {
+    "nombre": "Proyecto 24",
+    "descripcion": "Descripción del proyecto 24",
+    "duracion_estimada": 48.0,
+    "fecha_inicio": "2026-11-07",
+    "fecha_finalizacion": "2026-12-07",
+    "creador": 25
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 25,
+  "fields": {
+    "nombre": "Proyecto 25",
+    "descripcion": "Descripción del proyecto 25",
+    "duracion_estimada": 50.0,
+    "fecha_inicio": "2026-11-08",
+    "fecha_finalizacion": "2026-12-08",
+    "creador": 26
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 26,
+  "fields": {
+    "nombre": "Proyecto 26",
+    "descripcion": "Descripción del proyecto 26",
+    "duracion_estimada": 52.0,
+    "fecha_inicio": "2026-11-09",
+    "fecha_finalizacion": "2026-12-09",
+    "creador": 27
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 27,
+  "fields": {
+    "nombre": "Proyecto 27",
+    "descripcion": "Descripción del proyecto 27",
+    "duracion_estimada": 54.0,
+    "fecha_inicio": "2026-11-10",
+    "fecha_finalizacion": "2026-12-10",
+    "creador": 28
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 28,
+  "fields": {
+    "nombre": "Proyecto 28",
+    "descripcion": "Descripción del proyecto 28",
+    "duracion_estimada": 56.0,
+    "fecha_inicio": "2026-11-11",
+    "fecha_finalizacion": "2026-12-11",
+    "creador": 29
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 29,
+  "fields": {
+    "nombre": "Proyecto 29",
+    "descripcion": "Descripción del proyecto 29",
+    "duracion_estimada": 58.0,
+    "fecha_inicio": "2026-11-12",
+    "fecha_finalizacion": "2026-12-12",
+    "creador": 30
+  }
+},
+{
+  "model": "Gestion.proyecto",
+  "pk": 30,
+  "fields": {
+    "nombre": "Proyecto 30",
+    "descripcion": "Descripción del proyecto 30",
+    "duracion_estimada": 60.0,
+    "fecha_inicio": "2026-11-13",
+    "fecha_finalizacion": "2026-12-13",
+    "creador": 31
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 1,
+  "fields": {
+    "titulo": "Tarea 1",
+    "descripcion": "Descripción detallada de la tarea 1",
+    "prioridad": 2,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 2,
+    "proyecto": 1,
+    "etiquetas": [
+      1
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 2,
+  "fields": {
+    "titulo": "Tarea 2",
+    "descripcion": "Descripción detallada de la tarea 2",
+    "prioridad": 3,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 3,
+    "proyecto": 2,
+    "etiquetas": [
+      2
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 3,
+  "fields": {
+    "titulo": "Tarea 3",
+    "descripcion": "Descripción detallada de la tarea 3",
+    "prioridad": 4,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 4,
+    "proyecto": 3,
+    "etiquetas": [
+      3
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 4,
+  "fields": {
+    "titulo": "Tarea 4",
+    "descripcion": "Descripción detallada de la tarea 4",
+    "prioridad": 5,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 5,
+    "proyecto": 4,
+    "etiquetas": [
+      4
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 5,
+  "fields": {
+    "titulo": "Tarea 5",
+    "descripcion": "Descripción detallada de la tarea 5",
+    "prioridad": 1,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 6,
+    "proyecto": 5,
+    "etiquetas": [
+      5
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 6,
+  "fields": {
+    "titulo": "Tarea 6",
+    "descripcion": "Descripción detallada de la tarea 6",
+    "prioridad": 2,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 7,
+    "proyecto": 6,
+    "etiquetas": [
+      6
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 7,
+  "fields": {
+    "titulo": "Tarea 7",
+    "descripcion": "Descripción detallada de la tarea 7",
+    "prioridad": 3,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 8,
+    "proyecto": 7,
+    "etiquetas": [
+      7
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 8,
+  "fields": {
+    "titulo": "Tarea 8",
+    "descripcion": "Descripción detallada de la tarea 8",
+    "prioridad": 4,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 9,
+    "proyecto": 8,
+    "etiquetas": [
+      8
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 9,
+  "fields": {
+    "titulo": "Tarea 9",
+    "descripcion": "Descripción detallada de la tarea 9",
+    "prioridad": 5,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 10,
+    "proyecto": 9,
+    "etiquetas": [
+      9
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 10,
+  "fields": {
+    "titulo": "Tarea 10",
+    "descripcion": "Descripción detallada de la tarea 10",
+    "prioridad": 1,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 11,
+    "proyecto": 10,
+    "etiquetas": [
+      10
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 11,
+  "fields": {
+    "titulo": "Tarea 11",
+    "descripcion": "Descripción detallada de la tarea 11",
+    "prioridad": 2,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 12,
+    "proyecto": 11,
+    "etiquetas": [
+      11
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 12,
+  "fields": {
+    "titulo": "Tarea 12",
+    "descripcion": "Descripción detallada de la tarea 12",
+    "prioridad": 3,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 13,
+    "proyecto": 12,
+    "etiquetas": [
+      12
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 13,
+  "fields": {
+    "titulo": "Tarea 13",
+    "descripcion": "Descripción detallada de la tarea 13",
+    "prioridad": 4,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 14,
+    "proyecto": 13,
+    "etiquetas": [
+      13
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 14,
+  "fields": {
+    "titulo": "Tarea 14",
+    "descripcion": "Descripción detallada de la tarea 14",
+    "prioridad": 5,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 15,
+    "proyecto": 14,
+    "etiquetas": [
+      14
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 15,
+  "fields": {
+    "titulo": "Tarea 15",
+    "descripcion": "Descripción detallada de la tarea 15",
+    "prioridad": 1,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 16,
+    "proyecto": 15,
+    "etiquetas": [
+      15
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 16,
+  "fields": {
+    "titulo": "Tarea 16",
+    "descripcion": "Descripción detallada de la tarea 16",
+    "prioridad": 2,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 17,
+    "proyecto": 16,
+    "etiquetas": [
+      16
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 17,
+  "fields": {
+    "titulo": "Tarea 17",
+    "descripcion": "Descripción detallada de la tarea 17",
+    "prioridad": 3,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 18,
+    "proyecto": 17,
+    "etiquetas": [
+      17
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 18,
+  "fields": {
+    "titulo": "Tarea 18",
+    "descripcion": "Descripción detallada de la tarea 18",
+    "prioridad": 4,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 19,
+    "proyecto": 18,
+    "etiquetas": [
+      18
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 19,
+  "fields": {
+    "titulo": "Tarea 19",
+    "descripcion": "Descripción detallada de la tarea 19",
+    "prioridad": 5,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 20,
+    "proyecto": 19,
+    "etiquetas": [
+      19
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 20,
+  "fields": {
+    "titulo": "Tarea 20",
+    "descripcion": "Descripción detallada de la tarea 20",
+    "prioridad": 1,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 21,
+    "proyecto": 20,
+    "etiquetas": [
+      20
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 21,
+  "fields": {
+    "titulo": "Tarea 21",
+    "descripcion": "Descripción detallada de la tarea 21",
+    "prioridad": 2,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 22,
+    "proyecto": 21,
+    "etiquetas": [
+      21
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 22,
+  "fields": {
+    "titulo": "Tarea 22",
+    "descripcion": "Descripción detallada de la tarea 22",
+    "prioridad": 3,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 23,
+    "proyecto": 22,
+    "etiquetas": [
+      22
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 23,
+  "fields": {
+    "titulo": "Tarea 23",
+    "descripcion": "Descripción detallada de la tarea 23",
+    "prioridad": 4,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 24,
+    "proyecto": 23,
+    "etiquetas": [
+      23
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 24,
+  "fields": {
+    "titulo": "Tarea 24",
+    "descripcion": "Descripción detallada de la tarea 24",
+    "prioridad": 5,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 25,
+    "proyecto": 24,
+    "etiquetas": [
+      24
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 25,
+  "fields": {
+    "titulo": "Tarea 25",
+    "descripcion": "Descripción detallada de la tarea 25",
+    "prioridad": 1,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 26,
+    "proyecto": 25,
+    "etiquetas": [
+      25
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 26,
+  "fields": {
+    "titulo": "Tarea 26",
+    "descripcion": "Descripción detallada de la tarea 26",
+    "prioridad": 2,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 27,
+    "proyecto": 26,
+    "etiquetas": [
+      26
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 27,
+  "fields": {
+    "titulo": "Tarea 27",
+    "descripcion": "Descripción detallada de la tarea 27",
+    "prioridad": 3,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 28,
+    "proyecto": 27,
+    "etiquetas": [
+      27
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 28,
+  "fields": {
+    "titulo": "Tarea 28",
+    "descripcion": "Descripción detallada de la tarea 28",
+    "prioridad": 4,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 29,
+    "proyecto": 28,
+    "etiquetas": [
+      28
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 29,
+  "fields": {
+    "titulo": "Tarea 29",
+    "descripcion": "Descripción detallada de la tarea 29",
+    "prioridad": 5,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 30,
+    "proyecto": 29,
+    "etiquetas": [
+      29
+    ]
+  }
+},
+{
+  "model": "Gestion.tarea",
+  "pk": 30,
+  "fields": {
+    "titulo": "Tarea 30",
+    "descripcion": "Descripción detallada de la tarea 30",
+    "prioridad": 1,
+    "estado": "Pendiente",
+    "completada": false,
+    "fecha_creacion": "2026-10-14",
+    "hora_vencimiento": "17:00:00",
+    "creador": 31,
+    "proyecto": 30,
+    "etiquetas": [
+      30
+    ]
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 1,
+  "fields": {
+    "nombre": "Etiqueta 1"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 2,
+  "fields": {
+    "nombre": "Etiqueta 2"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 3,
+  "fields": {
+    "nombre": "Etiqueta 3"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 4,
+  "fields": {
+    "nombre": "Etiqueta 4"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 5,
+  "fields": {
+    "nombre": "Etiqueta 5"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 6,
+  "fields": {
+    "nombre": "Etiqueta 6"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 7,
+  "fields": {
+    "nombre": "Etiqueta 7"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 8,
+  "fields": {
+    "nombre": "Etiqueta 8"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 9,
+  "fields": {
+    "nombre": "Etiqueta 9"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 10,
+  "fields": {
+    "nombre": "Etiqueta 10"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 11,
+  "fields": {
+    "nombre": "Etiqueta 11"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 12,
+  "fields": {
+    "nombre": "Etiqueta 12"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 13,
+  "fields": {
+    "nombre": "Etiqueta 13"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 14,
+  "fields": {
+    "nombre": "Etiqueta 14"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 15,
+  "fields": {
+    "nombre": "Etiqueta 15"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 16,
+  "fields": {
+    "nombre": "Etiqueta 16"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 17,
+  "fields": {
+    "nombre": "Etiqueta 17"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 18,
+  "fields": {
+    "nombre": "Etiqueta 18"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 19,
+  "fields": {
+    "nombre": "Etiqueta 19"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 20,
+  "fields": {
+    "nombre": "Etiqueta 20"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 21,
+  "fields": {
+    "nombre": "Etiqueta 21"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 22,
+  "fields": {
+    "nombre": "Etiqueta 22"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 23,
+  "fields": {
+    "nombre": "Etiqueta 23"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 24,
+  "fields": {
+    "nombre": "Etiqueta 24"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 25,
+  "fields": {
+    "nombre": "Etiqueta 25"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 26,
+  "fields": {
+    "nombre": "Etiqueta 26"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 27,
+  "fields": {
+    "nombre": "Etiqueta 27"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 28,
+  "fields": {
+    "nombre": "Etiqueta 28"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 29,
+  "fields": {
+    "nombre": "Etiqueta 29"
+  }
+},
+{
+  "model": "Gestion.etiqueta",
+  "pk": 30,
+  "fields": {
+    "nombre": "Etiqueta 30"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 1,
+  "fields": {
+    "tarea": 1,
+    "usuario": 3,
+    "observaciones": "Observaciones de la asignación 1",
+    "fecha_asignacion": "2026-10-14T09:05:39.417Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 2,
+  "fields": {
+    "tarea": 2,
+    "usuario": 4,
+    "observaciones": "Observaciones de la asignación 2",
+    "fecha_asignacion": "2026-10-14T09:05:39.420Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 3,
+  "fields": {
+    "tarea": 3,
+    "usuario": 5,
+    "observaciones": "Observaciones de la asignación 3",
+    "fecha_asignacion": "2026-10-14T09:05:39.423Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 4,
+  "fields": {
+    "tarea": 4,
+    "usuario": 6,
+    "observaciones": "Observaciones de la asignación 4",
+    "fecha_asignacion": "2026-10-14T09:05:39.426Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 5,
+  "fields": {
+    "tarea": 5,
+    "usuario": 7,
+    "observaciones": "Observaciones de la asignación 5",
+    "fecha_asignacion": "2026-10-14T09:05:39.430Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 6,
+  "fields": {
+    "tarea": 6,
+    "usuario": 8,
+    "observaciones": "Observaciones de la asignación 6",
+    "fecha_asignacion": "2026-10-14T09:05:39.433Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 7,
+  "fields": {
+    "tarea": 7,
+    "usuario": 9,
+    "observaciones": "Observaciones de la asignación 7",
+    "fecha_asignacion": "2026-10-14T09:05:39.436Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 8,
+  "fields": {
+    "tarea": 8,
+    "usuario": 10,
+    "observaciones": "Observaciones de la asignación 8",
+    "fecha_asignacion": "2026-10-14T09:05:39.439Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 9,
+  "fields": {
+    "tarea": 9,
+    "usuario": 11,
+    "observaciones": "Observaciones de la asignación 9",
+    "fecha_asignacion": "2026-10-14T09:05:39.442Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 10,
+  "fields": {
+    "tarea": 10,
+    "usuario": 12,
+    "observaciones": "Observaciones de la asignación 10",
+    "fecha_asignacion": "2026-10-14T09:05:39.446Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 11,
+  "fields": {
+    "tarea": 11,
+    "usuario": 13,
+    "observaciones": "Observaciones de la asignación 11",
+    "fecha_asignacion": "2026-10-14T09:05:39.449Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 12,
+  "fields": {
+    "tarea": 12,
+    "usuario": 14,
+    "observaciones": "Observaciones de la asignación 12",
+    "fecha_asignacion": "2026-10-14T09:05:39.453Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 13,
+  "fields": {
+    "tarea": 13,
+    "usuario": 15,
+    "observaciones": "Observaciones de la asignación 13",
+    "fecha_asignacion": "2026-10-14T09:05:39.456Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 14,
+  "fields": {
+    "tarea": 14,
+    "usuario": 16,
+    "observaciones": "Observaciones de la asignación 14",
+    "fecha_asignacion": "2026-10-14T09:05:39.459Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 15,
+  "fields": {
+    "tarea": 15,
+    "usuario": 17,
+    "observaciones": "Observaciones de la asignación 15",
+    "fecha_asignacion": "2026-10-14T09:05:39.462Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 16,
+  "fields": {
+    "tarea": 16,
+    "usuario": 18,
+    "observaciones": "Observaciones de la asignación 16",
+    "fecha_asignacion": "2026-10-14T09:05:39.465Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 17,
+  "fields": {
+    "tarea": 17,
+    "usuario": 19,
+    "observaciones": "Observaciones de la asignación 17",
+    "fecha_asignacion": "2026-10-14T09:05:39.469Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 18,
+  "fields": {
+    "tarea": 18,
+    "usuario": 20,
+    "observaciones": "Observaciones de la asignación 18",
+    "fecha_asignacion": "2026-10-14T09:05:39.472Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 19,
+  "fields": {
+    "tarea": 19,
+    "usuario": 21,
+    "observaciones": "Observaciones de la asignación 19",
+    "fecha_asignacion": "2026-10-14T09:05:39.476Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 20,
+  "fields": {
+    "tarea": 20,
+    "usuario": 22,
+    "observaciones": "Observaciones de la asignación 20",
+    "fecha_asignacion": "2026-10-14T09:05:39.479Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 21,
+  "fields": {
+    "tarea": 21,
+    "usuario": 23,
+    "observaciones": "Observaciones de la asignación 21",
+    "fecha_asignacion": "2026-10-14T09:05:39.482Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 22,
+  "fields": {
+    "tarea": 22,
+    "usuario": 24,
+    "observaciones": "Observaciones de la asignación 22",
+    "fecha_asignacion": "2026-10-14T09:05:39.485Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 23,
+  "fields": {
+    "tarea": 23,
+    "usuario": 25,
+    "observaciones": "Observaciones de la asignación 23",
+    "fecha_asignacion": "2026-10-14T09:05:39.488Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 24,
+  "fields": {
+    "tarea": 24,
+    "usuario": 26,
+    "observaciones": "Observaciones de la asignación 24",
+    "fecha_asignacion": "2026-10-14T09:05:39.491Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 25,
+  "fields": {
+    "tarea": 25,
+    "usuario": 27,
+    "observaciones": "Observaciones de la asignación 25",
+    "fecha_asignacion": "2026-10-14T09:05:39.495Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 26,
+  "fields": {
+    "tarea": 26,
+    "usuario": 28,
+    "observaciones": "Observaciones de la asignación 26",
+    "fecha_asignacion": "2026-10-14T09:05:39.498Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 27,
+  "fields": {
+    "tarea": 27,
+    "usuario": 29,
+    "observaciones": "Observaciones de la asignación 27",
+    "fecha_asignacion": "2026-10-14T09:05:39.501Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 28,
+  "fields": {
+    "tarea": 28,
+    "usuario": 30,
+    "observaciones": "Observaciones de la asignación 28",
+    "fecha_asignacion": "2026-10-14T09:05:39.504Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 29,
+  "fields": {
+    "tarea": 29,
+    "usuario": 31,
+    "observaciones": "Observaciones de la asignación 29",
+    "fecha_asignacion": "2026-10-14T09:05:39.507Z"
+  }
+},
+{
+  "model": "Gestion.asignaciontarea",
+  "pk": 30,
+  "fields": {
+    "tarea": 30,
+    "usuario": 2,
+    "observaciones": "Observaciones de la asignación 30",
+    "fecha_asignacion": "2026-10-14T09:05:39.510Z"
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 1,
+  "fields": {
+    "usuario": 3,
+    "proyecto": 1
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 2,
+  "fields": {
+    "usuario": 4,
+    "proyecto": 2
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 3,
+  "fields": {
+    "usuario": 5,
+    "proyecto": 3
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 4,
+  "fields": {
+    "usuario": 6,
+    "proyecto": 4
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 5,
+  "fields": {
+    "usuario": 7,
+    "proyecto": 5
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 6,
+  "fields": {
+    "usuario": 8,
+    "proyecto": 6
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 7,
+  "fields": {
+    "usuario": 9,
+    "proyecto": 7
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 8,
+  "fields": {
+    "usuario": 10,
+    "proyecto": 8
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 9,
+  "fields": {
+    "usuario": 11,
+    "proyecto": 9
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 10,
+  "fields": {
+    "usuario": 12,
+    "proyecto": 10
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 11,
+  "fields": {
+    "usuario": 13,
+    "proyecto": 11
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 12,
+  "fields": {
+    "usuario": 14,
+    "proyecto": 12
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 13,
+  "fields": {
+    "usuario": 15,
+    "proyecto": 13
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 14,
+  "fields": {
+    "usuario": 16,
+    "proyecto": 14
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 15,
+  "fields": {
+    "usuario": 17,
+    "proyecto": 15
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 16,
+  "fields": {
+    "usuario": 18,
+    "proyecto": 16
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 17,
+  "fields": {
+    "usuario": 19,
+    "proyecto": 17
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 18,
+  "fields": {
+    "usuario": 20,
+    "proyecto": 18
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 19,
+  "fields": {
+    "usuario": 21,
+    "proyecto": 19
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 20,
+  "fields": {
+    "usuario": 22,
+    "proyecto": 20
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 21,
+  "fields": {
+    "usuario": 23,
+    "proyecto": 21
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 22,
+  "fields": {
+    "usuario": 24,
+    "proyecto": 22
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 23,
+  "fields": {
+    "usuario": 25,
+    "proyecto": 23
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 24,
+  "fields": {
+    "usuario": 26,
+    "proyecto": 24
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 25,
+  "fields": {
+    "usuario": 27,
+    "proyecto": 25
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 26,
+  "fields": {
+    "usuario": 28,
+    "proyecto": 26
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 27,
+  "fields": {
+    "usuario": 29,
+    "proyecto": 27
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 28,
+  "fields": {
+    "usuario": 30,
+    "proyecto": 28
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 29,
+  "fields": {
+    "usuario": 31,
+    "proyecto": 29
+  }
+},
+{
+  "model": "Gestion.colaboracionproyecto",
+  "pk": 30,
+  "fields": {
+    "usuario": 2,
+    "proyecto": 30
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 1,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 1",
+    "fecha_comentario": "2026-10-14T09:05:39.605Z",
+    "autor": 4,
+    "tarea": 1
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 2,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 2",
+    "fecha_comentario": "2026-10-14T09:05:39.608Z",
+    "autor": 5,
+    "tarea": 2
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 3,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 3",
+    "fecha_comentario": "2026-10-14T09:05:39.611Z",
+    "autor": 6,
+    "tarea": 3
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 4,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 4",
+    "fecha_comentario": "2026-10-14T09:05:39.614Z",
+    "autor": 7,
+    "tarea": 4
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 5,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 5",
+    "fecha_comentario": "2026-10-14T09:05:39.618Z",
+    "autor": 8,
+    "tarea": 5
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 6,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 6",
+    "fecha_comentario": "2026-10-14T09:05:39.621Z",
+    "autor": 9,
+    "tarea": 6
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 7,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 7",
+    "fecha_comentario": "2026-10-14T09:05:39.624Z",
+    "autor": 10,
+    "tarea": 7
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 8,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 8",
+    "fecha_comentario": "2026-10-14T09:05:39.627Z",
+    "autor": 11,
+    "tarea": 8
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 9,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 9",
+    "fecha_comentario": "2026-10-14T09:05:39.630Z",
+    "autor": 12,
+    "tarea": 9
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 10,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 10",
+    "fecha_comentario": "2026-10-14T09:05:39.633Z",
+    "autor": 13,
+    "tarea": 10
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 11,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 11",
+    "fecha_comentario": "2026-10-14T09:05:39.637Z",
+    "autor": 14,
+    "tarea": 11
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 12,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 12",
+    "fecha_comentario": "2026-10-14T09:05:39.640Z",
+    "autor": 15,
+    "tarea": 12
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 13,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 13",
+    "fecha_comentario": "2026-10-14T09:05:39.643Z",
+    "autor": 16,
+    "tarea": 13
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 14,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 14",
+    "fecha_comentario": "2026-10-14T09:05:39.647Z",
+    "autor": 17,
+    "tarea": 14
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 15,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 15",
+    "fecha_comentario": "2026-10-14T09:05:39.650Z",
+    "autor": 18,
+    "tarea": 15
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 16,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 16",
+    "fecha_comentario": "2026-10-14T09:05:39.653Z",
+    "autor": 19,
+    "tarea": 16
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 17,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 17",
+    "fecha_comentario": "2026-10-14T09:05:39.657Z",
+    "autor": 20,
+    "tarea": 17
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 18,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 18",
+    "fecha_comentario": "2026-10-14T09:05:39.660Z",
+    "autor": 21,
+    "tarea": 18
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 19,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 19",
+    "fecha_comentario": "2026-10-14T09:05:39.663Z",
+    "autor": 22,
+    "tarea": 19
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 20,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 20",
+    "fecha_comentario": "2026-10-14T09:05:39.666Z",
+    "autor": 23,
+    "tarea": 20
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 21,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 21",
+    "fecha_comentario": "2026-10-14T09:05:39.670Z",
+    "autor": 24,
+    "tarea": 21
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 22,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 22",
+    "fecha_comentario": "2026-10-14T09:05:39.673Z",
+    "autor": 25,
+    "tarea": 22
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 23,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 23",
+    "fecha_comentario": "2026-10-14T09:05:39.676Z",
+    "autor": 26,
+    "tarea": 23
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 24,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 24",
+    "fecha_comentario": "2026-10-14T09:05:39.679Z",
+    "autor": 27,
+    "tarea": 24
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 25,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 25",
+    "fecha_comentario": "2026-10-14T09:05:39.682Z",
+    "autor": 28,
+    "tarea": 25
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 26,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 26",
+    "fecha_comentario": "2026-10-14T09:05:39.685Z",
+    "autor": 29,
+    "tarea": 26
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 27,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 27",
+    "fecha_comentario": "2026-10-14T09:05:39.688Z",
+    "autor": 30,
+    "tarea": 27
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 28,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 28",
+    "fecha_comentario": "2026-10-14T09:05:39.691Z",
+    "autor": 31,
+    "tarea": 28
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 29,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 29",
+    "fecha_comentario": "2026-10-14T09:05:39.694Z",
+    "autor": 2,
+    "tarea": 29
+  }
+},
+{
+  "model": "Gestion.comentario",
+  "pk": 30,
+  "fields": {
+    "contenido": "Comentario de ejemplo número 30",
+    "fecha_comentario": "2026-10-14T09:05:39.697Z",
+    "autor": 3,
+    "tarea": 30
+  }
+}
+]
